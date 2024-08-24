@@ -1,0 +1,145 @@
+/* styles.css */
+
+.btn-group {
+    margin-top: 10px;
+  }
+  
+  .edit-btn {
+    margin-right: 5px;
+  }
+
+  /* Save Changes Button */
+button[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Close Modal Button */
+button[type="ok"] {
+  background-color: #a01624;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Edit Form */
+.edit-form {
+  margin-top: 20px;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 5px;
+  height: 500px;
+}
+/* Edit Form Input */
+.edit-input,
+.edit-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  
+}
+.edit-textarea {
+height: 45vh;
+}
+  body {
+    background-image: url('https://picsum.photos/1600/1200');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .blog-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .blog-description {
+    color: #555;
+    margin-bottom: 15px;
+  }
+ /* styling edit and delete buttons on home page */
+  .btn-group {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .delete-btn {
+    background-color: rgba(206, 187, 20, 0.333)
+  } 
+/*  styling edit form */
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .edit-input, .edit-textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .edit-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .save-button, .close-button {
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .edit-buttons {
+      flex-direction: column;
+    }
+    
+    .save-button, .close-button {
+      margin-top: 10px;
+    }
+  }
+  
